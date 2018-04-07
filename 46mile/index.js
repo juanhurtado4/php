@@ -12,7 +12,7 @@ const featureLoop = (index) => {
   setInterval(() => {
     headerFade.innerHTML = featureList[index];
     index += 1;
-    // Start at the beginning of array
+    // Restart at first word
     if (index === featureList.length) { index = 0 }
   }, 2000)
 }

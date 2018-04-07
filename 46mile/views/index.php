@@ -9,8 +9,9 @@
     <header>
       <div class="header-text">
         <h1 id="header-title">
-          Need help with <span id="header-fade"></span>
+          Need help with
         </h1>
+         <h1 id="header-fade"></h1>
         <p>We help with your Marketing and Advertising needs</p>
       </div>
     </header>
