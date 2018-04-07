@@ -2,9 +2,9 @@
 let headerFade = document.getElementById("header-fade");
 
 const featureList = [
-  "Research", "Strategy", "Media planning & buying",
-  "Social Media", "SEO", "PR", "Influencer Marketing",
-  "Creative services", "Website Development & Design"
+  "Research?", "Strategy?", "Media planning & buying?",
+  "Social Media?", "SEO?", "PR?", "Influencer Marketing?",
+  "Creative services?", "Website Development & Design?"
 ];
 
 const featureLoop = (index) => {
