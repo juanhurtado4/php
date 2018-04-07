@@ -1,0 +1,38 @@
+:root {
+  /* Vars */
+  --header-img: url(https://www.46mile.com/hubfs/Website%20Images%20and%20Info/GettyImages-816321472-fallback.jpg?t=1523042964205)
+}
+
+body {
+  /* Position */
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  /* Img */
+  background-image: var(--header-img);
+
+  /* Position */
+  grid-column: 1 / 13;
+  align-items: center;
+  display: flex;
+  height: 802px;
+}
+
+.header-text {
+  /* Font */
+  color: #000;
+  font-family: raleway, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+
+  /* Position */
+  margin: 3em;
+}
+
+.header-text > p {
+  /* Font */
+  font-weight: 200;
+}
