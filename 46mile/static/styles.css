@@ -23,9 +23,9 @@ header {
   background-image: var(--header-img);
 
   /* Position */
-  grid-column: 1 / 13;
   align-items: center;
   display: flex;
+  grid-column: 1 / 13;
   height: 802px;
 }
 
