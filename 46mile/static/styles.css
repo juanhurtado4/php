@@ -26,7 +26,7 @@ header {
   font-family: raleway, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 30px;
+  /* line-height: 20px; */
 
   /* Position */
   margin: 3em;
@@ -35,4 +35,16 @@ header {
 .header-text > p {
   /* Font */
   font-weight: 200;
+
+  /* Format */
+  margin-top: 0;
+}
+
+h1 {
+  /* Font */
+  display: inline-block;
+
+  /* Format */
+  margin: 0;
+
 }
