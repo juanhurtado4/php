@@ -6,15 +6,15 @@
   </head>
 
   <body>
-    <header>
-      <div class="header-text">
-        <h1 id="header-title">
+    <div class="banner">
+      <div class="banner-text">
+        <h1 id="banner-title">
           Need help with
         </h1>
-         <h1 id="header-fade"></h1>
+         <h1 id="banner-fade" class="banner-fade"></h1>
         <p>We help with your Marketing and Advertising needs</p>
       </div>
-    </header>
+    </div>
     <script src="../index.js"></script>
   </body>
 </html>

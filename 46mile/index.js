@@ -1,5 +1,5 @@
 // Document objects
-let headerFade = document.getElementById("header-fade");
+let bannerFade = document.getElementById("banner-fade");
 
 const featureList = [
   "Research?", "Strategy?", "Media planning & buying?",
@@ -10,11 +10,11 @@ const featureList = [
 const featureLoop = (index) => {
   // Start loop delay
   setInterval(() => {
-    headerFade.innerHTML = featureList[index];
+    bannerFade.innerHTML = featureList[index];
     index += 1;
     // Restart at first word
     if (index === featureList.length) { index = 0 }
-  }, 2000)
+  }, 3000)
 }
 
 featureLoop(0);

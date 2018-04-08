@@ -1,6 +1,6 @@
 :root {
   /* Vars */
-  --header-img: url(https://www.46mile.com/hubfs/Website%20Images%20and%20Info/GettyImages-816321472-fallback.jpg?t=1523042964205)
+  --banner-img: url(https://www.46mile.com/hubfs/Website%20Images%20and%20Info/GettyImages-816321472-fallback.jpg?t=1523042964205)
 }
 
 h1 {
@@ -18,9 +18,9 @@ body {
   grid-template-columns: repeat(12, 1fr);
 }
 
-header {
+.banner {
   /* Img */
-  background-image: var(--header-img);
+  background-image: var(--banner-img);
 
   /* Position */
   align-items: center;
@@ -29,7 +29,7 @@ header {
   height: 802px;
 }
 
-.header-text {
+.banner-text {
   /* Font */
   color: #000;
   font-family: raleway, sans-serif;
@@ -41,10 +41,28 @@ header {
   margin: 3em;
 }
 
-.header-text > p {
+.banner-text > p {
   /* Font */
   font-weight: 200;
 
   /* Format */
   margin-top: 0;
+}
+
+.banner-fade {
+  /* Animation */
+  animation-name: bannerfade;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes bannerfade {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
