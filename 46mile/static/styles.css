@@ -2,20 +2,15 @@
   /* Vars */
   --banner-img: url(https://www.46mile.com/hubfs/Website%20Images%20and%20Info/GettyImages-816321472-fallback.jpg?t=1523042964205)
 }
-
-h1 {
-  /* Font */
-  display: inline-block;
-
-  /* Format */
-  margin: 0;
-
-}
+--theme-red: #A02E32;
 
 body {
   /* Position */
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+
+  /* Format */
+  margin: 0;
 }
 
 .banner {
@@ -29,6 +24,12 @@ body {
   height: 802px;
 }
 
+.banner-fade,
+#banner-title {
+display: inline;
+margin: 0;
+}
+
 .banner-text {
   /* Font */
   color: #000;
@@ -38,7 +39,9 @@ body {
   /* line-height: 20px; */
 
   /* Position */
-  margin: 3em;
+  margin-right: 0;
+  width: 100%;
+  padding: 3em;
 }
 
 .banner-text > p {
