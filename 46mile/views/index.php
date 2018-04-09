@@ -6,6 +6,7 @@
   </head>
 
   <body>
+
     <div class="banner">
       <div class="banner-text">
         <h1 id="banner-title">
@@ -15,6 +16,16 @@
         <p>We help with your Marketing and Advertising needs</p>
       </div>
     </div>
+
+    <header>
+      <img class="logo" src="./media/46mileLogo_39x50.svg" alt="46mile logo" />
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/library">Library</a>
+      <a href="/blog">Blog</a>
+      <button type="button" name="button">We Can Help</button>
+    </header>
+
     <script src="../index.js"></script>
   </body>
 </html>
