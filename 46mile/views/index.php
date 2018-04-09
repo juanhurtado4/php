@@ -25,7 +25,7 @@
         <a href="/library">Library</a>
         <a href="/blog">Blog</a>
         <button type="button" name="button">We Can Help</button>
-    </nav>
+      </nav>
     </header>
 
     <script src="../index.js"></script>
