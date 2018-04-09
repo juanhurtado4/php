@@ -69,3 +69,19 @@ margin: 0;
     opacity: 0;
   }
 }
+
+header {
+    grid-column: 1 / 13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header > * {
+    margin: 1em;
+}
+
+header > a {
+    text-decoration: none;
+}
